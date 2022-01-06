@@ -1,0 +1,62 @@
+   /* 常见问题列表样式 */
+    
+    .listdiv0 {
+        padding: 0 35px;
+ 
+        height: auto !important;
+        min-height:360px;text-align:left
+    }
+    
+ 
+    
+    .listdiv0 ul.bornone {
+        border: none;
+    }
+    
+    .listdiv0 li {
+        background: url('/res/Home/structure/160930959.png') no-repeat left 8px;
+        /*height: 92px;后期修改，高度自动*/
+        overflow:hidden;zoom:1;margin:0 0 20px;text-align:left
+    }
+    
+    .listdiv0 li #ReportIDname {
+        padding: 0 0 0px 26px;
+        line-height:30px;
+        font-size: 16px;color:#333;
+    }
+    .listdiv0 li #ReportIDname a{color:#333;} 
+    .listdiv0 li #ReportIDname a:hover{color:#ff7f00;;} 
+    .listdiv0 li #ReportIDname a br{display:none;}
+
+    .listdiv0 li #ReportIDLogograph {display:block;text-indent:2em;
+        line-height:24px;
+        color: #959595;font-size:13px;overflow:hidden;/* height:48px; */
+    }
+    .listdiv0 li #ReportIDLogograph a{color: #959595;}
+    .listdiv0 li #ReportIDLogograph p{border:0;margin:0;padding:0;}
+
+    .listdiv0 li#PageNum {clear:both;width:100%;height: 32px !important;
+        background: none;
+        border: none;
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .listdiv0 li#PageNum span {
+        background-color: #FF8000;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 6px;
+    }
+    
+    .listdiv0 li#PageNum span input {
+        margin-left: 5px
+    }
+    
+    .listdiv0 li#PageNum span#go {
+        background: none;display:none
+    }
+    
+    .listdiv0 li#PageNum a {
+        padding: 0 5px;
+    }

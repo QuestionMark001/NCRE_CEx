@@ -1,0 +1,391 @@
+       #Content1 {
+        width: 845px;
+        float: left;
+        padding: 25px 0 40px;
+        height: auto !important;
+        min-height: 455px;
+        border: solid 1px #ddd;
+    }
+    
+    #Content {
+        width: 1150px;
+        margin: 0 auto 30px;
+        overflow: hidden;
+        zoom: 1;
+        background: #fff;
+    }
+    
+ 
+    #Content3 {
+        width: 265px;
+        float: right;
+    }
+    /* 项目首页 栏目块 */
+    .boxfun02,
+    .boxfun03,
+    .boxfun04,
+    .boxfun01 {
+        background: url(/res/Home/structure/hove1.png) no-repeat 0 0;
+    }
+    
+    .mores {
+        text-align: right;
+        margin: 15px 30px 0 0
+    }
+    
+    .mores a {
+        color: #0DA3E2
+    }
+    
+    .funbox .more:hover {}
+    
+    .fun03 .fun-title {
+        background-image: url(/res/Home/structure/033.png)
+    }
+    
+    .fun03 .more {
+        background: #F4911D;
+    }
+    
+    .fun02 .fun-title {
+        background-image: url(/res/Home/structure/022.png)
+    }
+    
+    .fun02 .more {
+        background: #F55C30;
+    }
+    
+    .fun04 .fun-title {
+        background-image: url(/res/Home/structure/044.png)
+    }
+    
+    .fun04 .more {
+        background: #28A7C3;
+    }
+    /* 新闻列表样式 */
+    
+    .listdiv {
+        padding: 0 35px;
+        /*width: 820px;
+        float: left;*/
+        height: auto !important;
+        min-height: 560px;
+    }
+    
+    .listdiv ul {
+        border-bottom: none;
+        /*padding-bottom: 35px;*/
+        margin-top: 35px;
+    }
+    
+    .listdiv ul.bornone {
+        border: none;  
+    }
+    
+    .listdiv li {
+        background: url('/res/Home/structure/listicon.jpg') no-repeat 15px 13px;
+        padding: 0 25px;
+        height: 28px;
+        line-height: 28px;overflow:hidden;zoom:1;
+    }
+    
+    .listdiv li #ReportIDname {
+        float: left;
+        font-size: 14px
+    }
+    .listdiv li #ReportIDname a br{display:none;}
+    .listdiv li #ReportIDIssueTime {
+        float: right;
+        color: #A7A7A7;
+    }
+    
+    .listdiv li#PageNum {
+        background: none;
+        border: none;
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .listdiv li#PageNum span {
+        background-color: #FF8000;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 6px;
+    }
+    
+    .listdiv li#PageNum span input {
+        margin-left: 5px
+    }
+    
+    .listdiv li#PageNum span#go {
+        background: none;display:none
+    }
+    
+    .listdiv li#PageNum a {
+        padding: 0 5px;
+    }
+    /* 文件夹内容样式 */
+    
+    .folderdiv {
+        padding: 0 35px;
+        /*width: 820px;
+        float: left;*/
+    }
+    
+    .folderdiv h1 {
+        font-size: 28px;
+        line-height: 200%;
+        text-align: center;
+    }
+   .folderdiv img{
+max-width: 100%;height: auto!important;width:expression(this.width > 750 ? "750px" : this.width)!important;
+    }  
+    .folderdiv #CurrentlyText {
+        display: block;
+        padding: 15px 0 40px;
+        line-height: 200%;
+        text-align: left;
+        height: auto !important;
+        min-height: 350px
+    }
+    
+    .folderdiv #CurrentlyText p {
+        margin-bottom: 20px
+    }
+    .folderdiv #CurrentlyText table{width:100% !important}
+    .folderdiv #CurrentlyText table,
+    .folderdiv #CurrentlyText td {
+        border-collapse: collapse;
+    }
+    
+    .folderdiv #CurrentlyText td {
+        border: solid 1px #ddd;
+        padding: 5px 10px;
+    }
+    /* 新闻详细*/
+    
+    .Condiv {
+        padding: 0 35px;
+        /* width: 820px;
+        float: left;*/
+    }
+    
+    .Condiv h1 {
+        font-size: 28px;
+        line-height: 200%;
+        text-align: center;
+    }
+    
+    .Condiv .sou {
+        height: 25px;
+        border-bottom: solid 1px #ddd;
+        margin-top: 25px;
+        padding: 0 10px
+    }
+    
+    #ReportIDClassName {
+        display: none;
+    }
+.Condiv .flie{text-align:left;margin:20px ; /* min-height:300px;*/}
+.Condiv .flie img{margin-right:2px}    
+    .sou .lefts {
+        color: #666666;position:relative;
+       /* float: left;*/
+    }
+.t_mb{position:absolute;right:0;bottom:0;color:#aaa}
+    .sou .lefts #ReportIDIssueTime{font-weight:bold}
+    .sou .right {
+        float: right;
+    }
+    
+    .Condiv #ReportIDtext {
+        display: block;
+        padding: 10px 0;
+        line-height: 200%;
+        text-align: left;
+        height: auto !important;
+        min-height: 288px;
+overflow:hidden;//针对内容区域添加的表格没法撑开+
+    }
+    
+    .Condiv #ReportIDtext p {
+        margin-bottom: 20px;
+        color: #333
+    }
+.Condiv #ReportIDtext a{color:#256EB1}
+
+.Condiv #ReportIDtext img {
+MAX-WIDTH: 100%!important;HEIGHT: auto!important;width:expression(this.width > 750 ? "750px" : this.width)!important;
+    }   
+    .preNet {
+        border-top: 3px solid #0068B7;
+        padding-top: 20px;
+        margin-top: 10px
+    }
+.Condiv #pdfDown{width:100%;clear:both;line-height:40px;text-align:right; }
+.Condiv #pdfDown a{text-decoration:underline;color:#FE8500}
+    .concarch {
+        text-align: right
+    }
+    
+    #PN_Link li {
+        width: 45%;
+        height: 25px;
+        line-height: 25px;
+        overflow:hidden;
+        text-align: left
+    }
+    
+    #PreviousLink {
+        float: right;
+        font-weight: bold;
+        color: #000;
+        background: url(/res/Home/structure/15070346.png) no-repeat left center;
+        padding-left: 15px
+    }
+    
+    #PreviousLink a,
+    #NextLink a {
+        color: #0068B7;
+        font-weight: normal
+    }
+    
+    #NextLink {
+        float: left;
+        font-weight: bold;
+        background: url(/res/Home/structure/15070345.png) no-repeat left center;
+        padding-left: 15px
+    }
+    
+    .Condiv #ReportIDtext td,
+    .Condiv #ReportIDtext table {
+        border-collapse: collapse;
+        padding: 5px;
+        color: #333;word-wrap:break-word;word-break:break-all
+    }
+    
+    .Condiv #ReportIDtext td {
+        border: solid 1px #ddd;/*注释因为有的地方表格对方不需要边框，所以去掉，如果需要在编辑框的表格里手动加边框*/
+height:auto !important
+    }
+    
+    .Condiv #ReportIDtext table {
+        width: 100% !important
+    }
+    /* 右侧图标样式 */
+    .right_sider{}
+
+.gengduo{padding-left: 175px;
+  text-align: right;
+  font-size: 12px;
+  color: #0DA3E2;
+  margin-top: 12px;}
+.right_sider h3 {
+    height: 60px;
+    margin: 0 7px 15px 7px;
+    border-bottom: 1px solid #0DA3E2;
+    background: url(/res/Home/structure/15101295.jpg) no-repeat 10% center;
+    font-size: 22px;
+    color: #111111;
+    padding-left: 75px;
+    text-align: left;
+    line-height: 60px;
+}
+.right_sider li{background:url(/res/Home/structure/15101294.jpg) no-repeat 9px 16px;padding:7px 8px 12px 20px;border-bottom:solid 1px #DFDFDF;margin-left: 10px;}
+.right_sider li a{font-size: 12px;color: #717171;}
+.right_sider li a br{display:none;}
+    .right_sider {
+        /*width:210px;float:right;*/
+        text-align: left;
+        border: 1px solid #ddd;
+        border-top: solid 5px #0DA3E2;
+        /*padding-bottom: 14px;*/background-color: #fafafa; 
+        
+    }
+    
+    .right_sider dt {
+        height: 95px;
+        margin: 0 7px 15px 7px;
+        border-bottom: 1px solid #CCCCCC;
+        background: url(/res/Home/structure/_r2_c2.png) no-repeat 6% center;
+        font-size: 25px;
+        color: #111111;
+        padding-left: 0px;
+        text-align: center;
+        line-height: 95px;
+    }
+    
+    .right_sider dd a {
+        display: block;
+        font-size: 14px
+    }
+    
+    .right_sider dd a:hover {
+        text-decoration: none;
+    }
+    
+    .right_sider dd {
+        height: 50px;
+        line-height: 50px;
+        margin-left: 82px
+    }
+    
+    .right_sider dd i {
+        display: block;
+        width: 30px;
+        height: 30px;/*res/Home/structure/rightsicon_.png*/
+        background-image: url(/res/Home/structure/15111013.png);
+        background-repeat: no-repeat;
+        float: left;
+        margin: 9px 5px 0 0;
+    }
+/*在线报名*/.zxbm i{background-position:-2px -335px;}
+/*证书查询*/.zscx i{background-position:0 -79px;}
+/*补办合格证明*/.bbhgzm i{background-position:left -124px;}
+/*成绩查询*/.cjcx i{background-position:-1px -531px;}
+/*承办机构*/.cbjg i{background-position:left -487px;}
+/*考点信息*/.kdxx i{background-position:0px -170px;}
+/*考试计划*/.ksjh i{background-position:0px -376px;}
+/*补办成绩证明*/.bbcjzm i{background-position:0px -376px;}
+/*报名流程*/.bmlc i{background-position:2px -487px;}
+/*考点查询*/.kdcx i{background-position:0px 7px;}
+/*成绩核查*/.cjhc i{background-position:0px -36px;}
+/*成绩证明*/.cjzm i{background-position:0px -170px;}
+
+
+.zxbm a:hover i{background-position:-34px -335px;}
+.zscx a:hover i{background-position:-33px -79px;}
+.bbhgzm a:hover i{background-position:-33px -124px;}
+.cjcx a:hover i{background-position:-33px -531px;}
+.cbjg a:hover i{background-position:-32px -487px;}
+.kdxx a:hover i{background-position:-32px -170px;}
+.ksjh a:hover i{background-position:-32px -376px;}
+.bbcjzm a:hover i{background-position:-32px -376px;}
+.bmlc a:hover i{background-position:-30px -487px;}
+
+.bbcjzm a:hover i{background-position:-32px -376px;}
+
+.right_sider dd em{font-style:normal;}
+
+.Condiv #ReportIDtext table p{padding:0px !important;margin:0px !important;}
+
+
+/* 右侧常见问题 luo 2017/06/21*/
+.stit{   color: #444;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;    margin-bottom: 10px;}
+.sidebar li{    padding: 10px 0 10px 15px;
+    border-bottom: 1px solid #E0DEDE;
+    color: #333;    position: relative;}
+.sidebar li a::before{
+content: "";
+    padding-right: 10px;
+    position: absolute;
+    top: 15px;left:2px;
+display:block;width:8px;height:11px;background:url(/res/Home/structure/170615674.jpg) no-repeat left top;;
+
+}
+.sidebar li a:hover{text-decoration:none;color:#0DA3E2}
+.sidebar li a:hover::before{background:url(/res/Home/structure/170615674.jpg) no-repeat left -14px;}

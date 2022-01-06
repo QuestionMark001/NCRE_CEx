@@ -1,0 +1,58 @@
+   /* 新闻列表样式 */
+    
+    .listdiv2 {
+        padding: 0 35px;
+ 
+        height: auto !important;
+        min-height:360px;
+    }
+    
+ 
+    
+    .listdiv2 ul.bornone {
+        border: none;
+    }
+    
+    .listdiv2 li {float:left;width:40%;
+        background: url('/res/Home/structure/listicon.jpg') no-repeat 15px 13px;
+        padding: 0 25px;
+        height: 28px;
+        line-height: 28px;overflow:hidden;zoom:1;
+    }
+    
+    .listdiv2 li #ReportIDname {
+        float: left;
+        font-size: 14px
+    }
+    .listdiv2 li #ReportIDname a br{display:none;}
+    .listdiv2 li #ReportIDIssueTime {
+        float: right;
+        color: #A7A7A7;
+    }
+    
+    .listdiv2 li#PageNum {clear:both;width:100%;
+        background: none;
+        border: none;
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .listdiv2 li#PageNum span {
+        background-color: #FF8000;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 6px;
+    }
+    
+    .listdiv2 li#PageNum span input {
+        margin-left: 5px
+    }
+    
+    .listdiv2 li#PageNum span#go {
+        background: none;display:none
+    }
+    
+    .listdiv2 li#PageNum a {
+        padding: 0 5px;
+    }
+a font{color:#f00;}
