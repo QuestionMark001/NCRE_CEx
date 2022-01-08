@@ -35,3 +35,26 @@
 
 ****  
 
+### 2.Windows操作系统中的暂停函数 ###  
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+/* 头文件stdlib.h包含system函数 */
+
+int main(void)
+{
+	printf("Hello,world!\n");
+
+	system("pause"); // 调用暂停函数
+	return 0;
+
+}
+```  
+
+****  
+
+#### ⚠*注意：如果在Windows操作系统中没有调用暂停函数，输出的结果将会“一闪而过”。* ####  
+
+****  
+
