@@ -49,7 +49,7 @@ int main(void)
 {
  printf("Hello,world!\n");
 
- system("pause"); // 调用暂停函数
+ system("pause"); // 调用暂停函数,或使用"getchar();"按下回车键后关闭窗口
  return 0;
 
 }
