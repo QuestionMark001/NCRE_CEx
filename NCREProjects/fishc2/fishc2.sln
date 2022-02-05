@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fishc2", "fishc2\fishc2.vcxproj", "{286C7CFF-1A00-4CE9-89D0-EDA87C31C3CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286C7CFF-1A00-4CE9-89D0-EDA87C31C3CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{286C7CFF-1A00-4CE9-89D0-EDA87C31C3CE}.Debug|Win32.Build.0 = Debug|Win32
+		{286C7CFF-1A00-4CE9-89D0-EDA87C31C3CE}.Release|Win32.ActiveCfg = Release|Win32
+		{286C7CFF-1A00-4CE9-89D0-EDA87C31C3CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
