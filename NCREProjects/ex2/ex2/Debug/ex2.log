@@ -1,7 +1,7 @@
-﻿生成启动时间为 2022/2/1 0:20:49。
+﻿生成启动时间为 2022/2/21 19:32:00。
      1>项目“D:\LocalProjects\NCRE_CEx\NCREProjects\ex2\ex2\ex2.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“Debug\ex2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Debug\ex2.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
          D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Ex2.c
          Ex2.c
@@ -18,4 +18,4 @@
 
 生成成功。
 
-已用时间 00:00:00.73
+已用时间 00:00:00.60

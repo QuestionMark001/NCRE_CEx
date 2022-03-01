@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	printf("Hello,world!\n");
+	printf("Hello,world!你好\n");
 
 	getchar(); //按下回车键后关闭窗口
 	return 0;
